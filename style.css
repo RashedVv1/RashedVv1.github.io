@@ -1,0 +1,67 @@
+/* style.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  color: #333;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px 60px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.highlight {
+  color: #0077ff;
+}
+
+.intro {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.about-me h2 {
+  font-size: 1.5rem;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.about-me p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* LinkedIn Button */
+.linkedin-button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 24px;
+  background-color: #0077b5;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.linkedin-button:hover {
+  background-color: #005983;
+}
